@@ -164,49 +164,49 @@ class MainApp(MDApp):
      def player_X_win(self):
           if self.root.ids.btn1.text == "X" and self.root.ids.btn2.text == "X" and self.root.ids.btn3.text == "X":
                self.player_x_score+=1
-               self.root.ids.player_x_score.text = "Player_X_Score = "+str(self.player_o_score)
+               self.root.ids.player_x_score.text = "Player_X_Score = "+str(self.player_x_score)
                self.chage_btn_color(self.root.ids.btn1, self.root.ids.btn2, self.root.ids.btn3)
                return True
 
           elif self.root.ids.btn4.text == "X" and self.root.ids.btn5.text == "X" and self.root.ids.btn6.text == "X":
                self.player_x_score+=1
-               self.root.ids.player_x_score.text = "Player_X_Score = "+str(self.player_o_score)
+               self.root.ids.player_x_score.text = "Player_X_Score = "+str(self.player_x_score)
                self.chage_btn_color(self.root.ids.btn4, self.root.ids.btn5, self.root.ids.btn6)
                return True
 
           elif self.root.ids.btn7.text == "X" and self.root.ids.btn8.text == "X" and self.root.ids.btn9.text == "X":
                self.player_x_score+=1
-               self.root.ids.player_x_score.text = "Player_X_Score = "+str(self.player_o_score)
+               self.root.ids.player_x_score.text = "Player_X_Score = "+str(self.player_x_score)
                self.chage_btn_color(self.root.ids.btn7, self.root.ids.btn8, self.root.ids.btn9)
                return True
 
           elif self.root.ids.btn1.text == "X" and self.root.ids.btn4.text == "X" and self.root.ids.btn7.text == "X":
                self.player_x_score+=1
-               self.root.ids.player_x_score.text = "Player_X_Score = "+str(self.player_o_score)
+               self.root.ids.player_x_score.text = "Player_X_Score = "+str(self.player_x_score)
                self.chage_btn_color(self.root.ids.btn1, self.root.ids.btn4, self.root.ids.btn7)
                return True
 
           elif self.root.ids.btn2.text == "X" and self.root.ids.btn5.text == "X" and self.root.ids.btn8.text == "X":
                self.player_x_score+=1
-               self.root.ids.player_x_score.text = "Player_X_Score = "+str(self.player_o_score)
+               self.root.ids.player_x_score.text = "Player_X_Score = "+str(self.player_x_score)
                self.chage_btn_color(self.root.ids.btn2, self.root.ids.btn5, self.root.ids.btn8)
                return True
 
           elif self.root.ids.btn3.text == "X" and self.root.ids.btn6.text == "X" and self.root.ids.btn9.text == "X":
                self.player_x_score+=1
-               self.root.ids.player_x_score.text = "Player_X_Score = "+str(self.player_o_score)
+               self.root.ids.player_x_score.text = "Player_X_Score = "+str(self.player_x_score)
                self.chage_btn_color(self.root.ids.btn3, self.root.ids.btn6, self.root.ids.btn9)
                return True
 
           elif self.root.ids.btn1.text == "X" and self.root.ids.btn5.text == "X" and self.root.ids.btn9.text == "X":
                self.player_x_score+=1
-               self.root.ids.player_x_score.text = "Player_X_Score = "+str(self.player_o_score)
+               self.root.ids.player_x_score.text = "Player_X_Score = "+str(self.player_x_score)
                self.chage_btn_color(self.root.ids.btn1, self.root.ids.btn5, self.root.ids.btn9)
                return True
 
           elif self.root.ids.btn3.text == "X" and self.root.ids.btn5.text == "X" and self.root.ids.btn7.text == "X":
                self.player_x_score+=1
-               self.root.ids.player_x_score.text = "Player_X_Score = "+str(self.player_o_score)
+               self.root.ids.player_x_score.text = "Player_X_Score = "+str(self.player_x_score)
                self.chage_btn_color(self.root.ids.btn3, self.root.ids.btn5, self.root.ids.btn7)
                return True
 
